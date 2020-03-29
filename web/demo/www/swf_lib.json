@@ -1,0 +1,16 @@
+{
+    "swfs" :
+    [
+        {"title": "Achievement Unlocked", "author" : "", "location" : "https://ruffle-rs.s3-us-west-1.amazonaws.com/builds/web-demo/achievement_unlocked.swf"},
+        {"title": "Alien Hominid", "author" : "", "location" : "https://ruffle-rs.s3-us-west-1.amazonaws.com/builds/web-demo/alien_hominid.swf"},
+        {"title": "Heroes of Cybertron", "author" : "", "location" : "https://ruffle-rs.s3-us-west-1.amazonaws.com/builds/web-demo/heroes_of_cybertron.swf"},
+        {"title": "Marvin Spectrum", "author" : "", "location" : "https://ruffle-rs.s3-us-west-1.amazonaws.com/builds/web-demo/marvinspectrum.swf"},
+        {"title": "Pico", "author" : "", "location" : "https://ruffle-rs.s3-us-west-1.amazonaws.com/builds/web-demo/pico.swf"},
+        {"title": "Pico Unloaded", "author" : "", "location" : "https://ruffle-rs.s3-us-west-1.amazonaws.com/builds/web-demo/pico_unloaded.swf"},
+        {"title": "Rave Music", "author" : "", "location" : "https://ruffle-rs.s3-us-west-1.amazonaws.com/builds/web-demo/124117_Rave_Music.swf"},
+        {"title": "Strong Bad Email", "author" : "", "location" : "https://ruffle-rs.s3-us-west-1.amazonaws.com/builds/web-demo/sbemail58.swf"},
+        {"title": "Synj VS Horrid", "author" : "", "location" : "https://ruffle-rs.s3-us-west-1.amazonaws.com/builds/web-demo/synj1.swf"},
+        {"title": "Uniwar", "author" : "", "location" : "https://ruffle-rs.s3-us-west-1.amazonaws.com/builds/web-demo/uniwar.swf"},
+        {"title": "Wasted Sky", "author" : "", "location" : "https://ruffle-rs.s3-us-west-1.amazonaws.com/builds/web-demo/wasted_sky.swf"}
+    ]
+}

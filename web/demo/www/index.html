@@ -30,15 +30,25 @@
       max-height: calc(100vh - 70px);
     }
 
+    #container
+    {
+      height: calc(100vh - 70px);
+      width: 100vw;
+    }
+
+    #player {
+      width: 100vw;
+      height: calc(100vh - 70px);
+    }
+
     #nav {
-      width: calc(100% - 20px);
+      width: 100%;
       background: #37528C;
       border: 0;
       border-color: darkgray;
       border-bottom: 2px #37528C;
       border-style: solid;
       box-shadow: 0 5px 5px #37528C;
-      padding: 10px;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -53,8 +63,7 @@
       cursor: pointer;
     }
 
-    #title img
-    {
+    #title img {
       display: inline-block;
       height: 32px;
       margin-top: 5px;
@@ -62,6 +71,16 @@
 
     #file-picker {
       margin-top: 7px;
+    }
+
+    #file-picker div {
+      display: inline-block;
+    }
+
+    @media only screen and (max-width: 800px) {
+      #file-picker div {
+        display: block;
+      }
     }
 
     @media only screen and (max-device-width: 600px) {
@@ -94,11 +113,16 @@
         Local SWF: 
         <input type="file" id="local-file">
       </div>
+      <div>
+        Sample SWF: 
+        <select id="sample-swfs">
+          <option value="none">None</option>
+        </select>
+      </div>
     </div>
   </div>
   </div>
   <div id="main">
-    <embed id="player" type="application/x-shockwave-flash" src="test.swf">
   </div>
   <script src="./index.js"></script>
 </body>
