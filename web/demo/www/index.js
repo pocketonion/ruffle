@@ -22,6 +22,7 @@ let container = document.getElementById('main');
 window.addEventListener('DOMContentLoaded', (event) => {
   ruffle = window.RufflePlayer.newest();
   player = ruffle.create_player();
+  player.id = "player";
   container.appendChild(player);
 });
 
@@ -80,5 +81,6 @@ let animationHandler;
 function replacePlayer() {
     document.getElementById("main").children[0].remove();
     player = ruffle.create_player();
+    player.id = "player";
     container.appendChild(player);
 }
