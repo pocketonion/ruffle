@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   player = ruffle.create_player();
   player.id = "player";
   container.appendChild(player);
-  fetch("JSON_URL_GOES_HERE").then(response => {
+  fetch("swfs.json").then(response => {
         if (response.ok) {
             response.json().then( data => {
                 const list = document.getElementById("sample-swfs");
