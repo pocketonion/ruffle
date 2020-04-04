@@ -1,6 +1,5 @@
 import { PublicAPI } from "../../js-src/public-api";
 import { SourceAPI } from "../../js-src/source-api";
-import { public_path } from "../../js-src/public-path";
 
 window.RufflePlayer = PublicAPI.negotiate(window.RufflePlayer, "local", new SourceAPI("local"));
 
@@ -96,9 +95,6 @@ function loadRemoteFile(url) {
             response.arrayBuffer().then(data => player.play_swf_data(data))
         });
 }
-
-let timestamp = 0;
-let animationHandler;
 
 function replacePlayer() {
     document.getElementById("main").children[0].remove();
